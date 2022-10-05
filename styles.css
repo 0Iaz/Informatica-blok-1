@@ -12,7 +12,7 @@ h1 {
 
 
 body {
-  background-image: url('newbackground.jfif');
+  background-image: url('https://trinket-user-assets.trinket.io/61c4b5292c358be37f6cb2bc1069ebbd9ea4488d-632aeb5590dd8d4d342a068a.jfif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -57,7 +57,7 @@ p {
   padding: 10px;
   border-radius: 10px;
   border: 10px solid transparent;
-  border-image: url(border.png) 40 stretch;
+  border-image: url(https://trinket-user-assets.trinket.io/dac5816806e59269ab8bac70e368308556b77bf8-633d5c55471d673c2ee95220.png) 40 stretch;
 }
 nav ul  {
   margin: auto;
