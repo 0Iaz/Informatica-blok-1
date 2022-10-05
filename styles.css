@@ -12,10 +12,10 @@ h1 {
 
 
 body {
-  background-image: url('https://trinket-user-assets.trinket.io/61c4b5292c358be37f6cb2bc1069ebbd9ea4488d-632aeb5590dd8d4d342a068a.jfif');
+  background-image: url('newbackground.jfif');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 90%;
+  background-size: 100% 100%;
 }
 
 
@@ -36,13 +36,33 @@ nav ul li {
 
 nav ul {
   background-color: tomato;
-  border-style: solid;
+  border-style: outset;
   border-color: lime;
   border-width: 2px;
   padding: 10px;
+  border-radius: 10px;
 }
 
 
 nav ul li a {
     text-decoration: none;color: #ff00ff;
 }
+
+p {
+  float: left;
+  background-color: tomato;
+  border-style: outset;
+  border-color: lime;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 10px solid transparent;
+  border-image: url(border.png) 40 stretch;
+}
+nav ul  {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
